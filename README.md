@@ -10,27 +10,7 @@
 - Метод секущих  
 - проверка того, что ответ пользователя есть цикл заданного графа 
 
----
 
-### About
-Задание по дисциплине "Технологии и методы программирования", 1 курс  
-
-[ ] Readme  
-[ ] Activity  
-[ ] 1 star  
-[ ] 1 watching  
-[ ] 0 forks  
-Report repository  
-
----
-
-### Releases
-No release published  
-
-### Packages
-No package published  
-
----
 
 ### Contributors
 - [Amrax232](https://github.com/Amrax232)  
