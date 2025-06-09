@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AuthWindow</class>
+ <widget class="QMainWindow" name="AuthWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width> <!-- Увеличим ширину для лучшей компоновки -->
+    <height>450</height> <!-- Увеличим высоту -->
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Авторизация</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background-color: #F5F7FA; /* Светлый фон для окна */
+   </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y> <!-- Сдвинем вниз для отступа -->
+      <width>600</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family> <!-- Современный шрифт -->
+      <pointsize>28</pointsize> <!-- Уменьшим размер для элегантности -->
+      <weight>75</weight> <!-- Полужирный -->
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+      color: #2D3748; /* Темно-серый цвет текста */
+      background-color: transparent;
+     </string>
+    </property>
+    <property name="text">
+     <string>Тренажер по МЛТА</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x> <!-- Центрируем форму -->
+      <y>100</y>
+      <width>400</width>
+      <height>250</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QSplitter" name="splitter">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <layout class="QHBoxLayout" name="LoginPasswordLayout">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QLabel" name="LoginLabel">
+             <property name="font">
+              <font>
+               <family>Roboto</family>
+               <pointsize>14</pointsize> <!-- Уменьшим для компактности -->
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+               color: #4A5568; /* Серый цвет текста */
+              </string>
+             </property>
+             <property name="text">
+              <string>Логин:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="PasswordLabel">
+             <property name="font">
+              <font>
+               <family>Roboto</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+               color: #4A5568;
+              </string>
+             </property>
+             <property name="text">
+              <string>Пароль:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="passwordLabel_2">
+             <property name="font">
+              <font>
+               <family>Roboto</family>
+               <pointsize>14</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+               color: #4A5568;
+              </string>
+             </property>
+             <property name="text">
+              <string>Повторите пароль:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLineEdit" name="LoginTextEdit">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>40</height> <!-- Увеличим высоту для удобства -->
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+               border: 1px solid #CBD5E0; /* Светлая граница */
+               border-radius: 5px; /* Скругленные углы */
+               padding: 5px; /* Внутренний отступ */
+               background-color: #FFFFFF; /* Белый фон */
+               color: #2D3748; /* Цвет текста */
+              </string>
+             </property>
+             <property name="placeholderText">
+              <string>Введите логин</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="PasswordTextEdit">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+               border: 1px solid #CBD5E0;
+               border-radius: 5px;
+               padding: 5px;
+               background-color: #FFFFFF;
+               color: #2D3748;
+              </string>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum> <!-- Скрываем ввод пароля -->
+             </property>
+             <property name="placeholderText">
+              <string>Введите пароль</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QLineEdit" name="passwordTextEdit_2">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">
+                 border: 1px solid #CBD5E0;
+                 border-radius: 5px;
+                 padding: 5px;
+                 background-color: #FFFFFF;
+                 color: #2D3748;
+                </string>
+               </property>
+               <property name="echoMode">
+                <enum>QLineEdit::Password</enum>
+               </property>
+               <property name="placeholderText">
+                <string>Повторите пароль</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="ChangeModeLabel">
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+           color: #718096; /* Серый цвет текста */
+          </string>
+         </property>
+         <property name="text">
+          <string>Нет аккаунта? </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ChangeModeButton">
+         <property name="styleSheet">
+          <string notr="true">
+           color: #E53E3E; /* Красный цвет текста */
+           background-color: transparent;
+           border: none;
+          </string>
+         </property>
+         <property name="text">
+          <string>Зарегистрируйтесь</string>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="maximumSize">
+        <size>
+         <width>200</width> <!-- Ограничим ширину кнопки -->
+         <height>45</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+         background-color: #3182CE; /* Синий цвет кнопки */
+         color: #FFFFFF; /* Белый текст */
+         border-radius: 5px;
+         padding: 10px;
+         font-size: 16px;
+         font-family: Roboto;
+         font-weight: bold;
+        </string>
+       </property>
+       <property name="text">
+        <string>Войти</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
