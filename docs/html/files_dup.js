@@ -1,0 +1,25 @@
+var files_dup =
+[
+    [ "AuthWindow.cpp", "_auth_window_8cpp.html", null ],
+    [ "AuthWindow.h", "_auth_window_8h.html", "_auth_window_8h" ],
+    [ "clientfunctions.cpp", "clientfunctions_8cpp.html", "clientfunctions_8cpp" ],
+    [ "clientfunctions.h", "clientfunctions_8h.html", "clientfunctions_8h" ],
+    [ "database.cpp", "database_8cpp.html", null ],
+    [ "database.h", "database_8h.html", "database_8h" ],
+    [ "main.cpp", "main_8cpp.html", "main_8cpp" ],
+    [ "mainwindow.cpp", "mainwindow_8cpp.html", null ],
+    [ "mainwindow.h", "mainwindow_8h.html", "mainwindow_8h" ],
+    [ "mytcpserver.cpp", "mytcpserver_8cpp.html", null ],
+    [ "mytcpserver.h", "mytcpserver_8h.html", "mytcpserver_8h" ],
+    [ "network.cpp", "network_8cpp.html", null ],
+    [ "network.h", "network_8h.html", "network_8h" ],
+    [ "serverfunction.cpp", "serverfunction_8cpp.html", "serverfunction_8cpp" ],
+    [ "serverfunction.h", "serverfunction_8h.html", "serverfunction_8h" ],
+    [ "taskform.cpp", "taskform_8cpp.html", null ],
+    [ "taskform.h", "taskform_8h.html", "taskform_8h" ],
+    [ "tasks.cpp", "tasks_8cpp.html", "tasks_8cpp" ],
+    [ "tasks.h", "tasks_8h.html", "tasks_8h" ],
+    [ "teacherwindow.cpp", "teacherwindow_8cpp.html", null ],
+    [ "teacherwindow.h", "teacherwindow_8h.html", "teacherwindow_8h" ],
+    [ "tst_serverfunction.cpp", "tst__serverfunction_8cpp.html", "tst__serverfunction_8cpp" ]
+];

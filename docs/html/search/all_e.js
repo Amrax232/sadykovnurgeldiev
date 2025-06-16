@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['task1_0',['Task1',['../tasks_8cpp.html#ab55515fb51eaeea596234a98663b7d08',1,'Task1():&#160;tasks.cpp'],['../tasks_8h.html#ab55515fb51eaeea596234a98663b7d08',1,'Task1():&#160;tasks.cpp']]],
+  ['task2_1',['Task2',['../tasks_8cpp.html#a44b256b79ede01c4c9eb9802909b8039',1,'Task2():&#160;tasks.cpp'],['../tasks_8h.html#a44b256b79ede01c4c9eb9802909b8039',1,'Task2():&#160;tasks.cpp']]],
+  ['task3_2',['Task3',['../tasks_8cpp.html#a05f58ceddaae2bfc7edd0b458bbccd7f',1,'Task3():&#160;tasks.cpp'],['../tasks_8h.html#a05f58ceddaae2bfc7edd0b458bbccd7f',1,'Task3():&#160;tasks.cpp']]],
+  ['task4_3',['Task4',['../tasks_8cpp.html#a95994eae6a0588dfe0e6feeaad2e5a80',1,'Task4():&#160;tasks.cpp'],['../tasks_8h.html#a95994eae6a0588dfe0e6feeaad2e5a80',1,'Task4():&#160;tasks.cpp']]],
+  ['taskform_4',['TaskForm',['../class_task_form.html',1,'TaskForm'],['../class_task_form.html#aa74879de9679e0bb12f34c3638c762fa',1,'TaskForm::TaskForm()']]],
+  ['taskform_2ecpp_5',['taskform.cpp',['../taskform_8cpp.html',1,'']]],
+  ['taskform_2eh_6',['taskform.h',['../taskform_8h.html',1,'']]],
+  ['taskid_7',['taskId',['../class_task_form.html#aaf6eb3e1e3389458698282099259e8b4',1,'TaskForm']]],
+  ['tasks_2ecpp_8',['tasks.cpp',['../tasks_8cpp.html',1,'']]],
+  ['tasks_2eh_9',['tasks.h',['../tasks_8h.html',1,'']]],
+  ['tasks_5fh_10',['TASKS_H',['../tasks_8h.html#af691d88824b09684b5e28ad428ea3f52',1,'tasks.h']]],
+  ['tcpinstance_11',['tcpInstance',['../class_network.html#a5056309021d493bda01dbc411c55b37e',1,'Network']]],
+  ['tcpsocketlist_12',['TcpSocketList',['../class_my_tcp_server.html#ab9c8fe8ead1a024bf2112c47eb5b1ec0',1,'MyTcpServer']]],
+  ['teacherwindow_13',['TeacherWindow',['../class_teacher_window.html',1,'TeacherWindow'],['../class_teacher_window.html#a9a84258daddfec0678cac1d46f504659',1,'TeacherWindow::TeacherWindow()']]],
+  ['teacherwindow_2ecpp_14',['teacherwindow.cpp',['../teacherwindow_8cpp.html',1,'']]],
+  ['teacherwindow_2eh_15',['teacherwindow.h',['../teacherwindow_8h.html',1,'']]],
+  ['test_5fcase_5f1_16',['test_case_1',['../classserverfunction.html#a6ac0dde3781c50f703a7170dff907fb7',1,'serverfunction']]],
+  ['test_5fcase_5f2_17',['test_case_2',['../classserverfunction.html#af7e07bfe314eae0dbe2bfe1b7b94728d',1,'serverfunction']]],
+  ['test_5fcase_5f3_18',['test_case_3',['../classserverfunction.html#ab1525f711eeec19465614410be66a3e6',1,'serverfunction']]],
+  ['test_5fcase_5f4_19',['test_case_4',['../classserverfunction.html#a9cea6b420bf3c60aab4009f3c4f9d0bd',1,'serverfunction']]],
+  ['tst_5fserverfunction_2ecpp_20',['tst_serverfunction.cpp',['../tst__serverfunction_8cpp.html',1,'']]],
+  ['twindow_21',['tWindow',['../class_main_window.html#aa4764ad3a27ca40808dc9375a9ce8652',1,'MainWindow']]]
+];
