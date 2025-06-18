@@ -10,7 +10,7 @@
 - Метод секущих  
 - проверка того, что ответ пользователя есть цикл заданного графа 
 
-
+https://ru.docworkspace.com/d/sILeGvZKgAtHIycIG?sa=601.1037
 
 ### Contributors
 - [Amrax232](https://github.com/Amrax232)  
